@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Strings</title>
+  </head>
+  <body>
+    <h1>Name generator</h1>
+
+    <div id="interface">
+
+      <form id=input>
+        <div>  
+          <label>INPUT
+            <input type="text" id="text_input">
+          </label>
+        </div>
+        <select name="operator" id="operator">
+          <option value="a">Make the first character in a name uppercase, and the rest lowercase</option>
+          <option value="b">Find the first name</option>
+          <option value="c">Find the length of the first name</option>
+          <option value="d">Find the middle name start and end position, and the middle name itself in a full name string</option>
+          <option value="e">Check if a filename is .png or .jpg</option>
+        </select>
+        <div>
+            <label>
+              <input type="text" id="result">
+            </label> 
+        </div>
+      
+      </form>
+
+      <button id="output_button">Genereate output</button>
+      <button type="reset" name="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
